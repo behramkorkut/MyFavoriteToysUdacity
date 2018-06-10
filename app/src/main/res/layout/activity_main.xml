@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_toy_app"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to toyApp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_sunshine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to sunshine"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_somerecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to recyclerView"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_toyimplicit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to implicit intents"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/button_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to lifeCycle activity"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/button_visualizer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to visualizer"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_waitList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to waitList"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_quizprovider"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to quiz content provider"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_buildingcontentprovider"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to buildingcontentprovider"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_hydratationApp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to hydratation App"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/button_boardingpassApp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to boarding Pass App"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_PolishApp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go to polish App"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFD740</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+
+    <color name="shapeRed">#F44336</color>
+    <color name="trailRed">#B71C1C</color>
+    <color name="backgroundRed">#FFCDD2</color>
+
+    <color name="shapeBlue">#3F51B5</color>
+    <color name="trailBlue">#1A237E</color>
+    <color name="backgroundBlue">#C5CAE9</color>
+
+    <color name="shapeGreen">#4CAF50</color>
+    <color name="trailGreen">#1B5E20</color>
+    <color name="backgroundGreen">#C8E6C9</color>
+
+    <!-- colors for task priority selection -->
+    <color name="materialRed">#E74C3C</color>
+    <color name="materialOrange">#E67E22</color>
+    <color name="materialYellow">#F1C40F</color>
+
+    <color name="colorGood">#4CAF50</color>
+    <color name="colorBad">#F44336</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="detail_accent_pane_background">#455A64</color>
+    <color name="detail_accent_label">#90A4AE</color>
+    <color name="activated">#E0E0E0</color>
+
+
+</resources>

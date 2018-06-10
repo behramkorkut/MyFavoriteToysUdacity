@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    tools:context="com.yenimobile.myfavoritetoysudacity.polishAppFiles.PolishappMain">
+
+    <!-- Text views for each of our listed activities -->
+    <!-- All have the ActivityLabelStyle applied -->
+
+    <TextView
+        android:id="@+id/colorAndFont"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/color_font_name" />
+
+    <TextView
+        android:id="@+id/style"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/style_name" />
+
+    <TextView
+        android:id="@+id/responsiveLayouts"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/responsive_layout_name" />
+
+    <TextView
+        android:id="@+id/touchSelector"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/touch_selectors_name" />
+
+</LinearLayout>

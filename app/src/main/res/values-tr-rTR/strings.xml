@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFavoriteToysUdacity</string>
+    <string name="today">Bugün</string>
+    <string name="condition_2xx">Firtina</string>
+    <string name="condition_500">ince yagmur</string>
+</resources>

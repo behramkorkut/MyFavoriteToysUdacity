@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yenimobile.myfavoritetoysudacity.polishAppFiles.StyleActivity">
+
+    <!-- All mail folder views -->
+    <TextView
+        style="@style/italicInboxStyle"
+        android:drawableStart="@drawable/ic_inbox"
+        android:drawableLeft="@drawable/ic_inbox"
+        android:text="@string/inbox" />
+
+    <TextView
+        style="@style/folderStyle"
+        android:drawableStart="@drawable/ic_star"
+        android:drawableLeft="@drawable/ic_star"
+        android:text="@string/starred" />
+
+    <TextView
+        style="@style/folderStyle"
+        android:drawableStart="@drawable/ic_drafts"
+        android:drawableLeft="@drawable/ic_drafts"
+        android:text="@string/drafts" />
+
+    <TextView
+        style="@style/folderStyle"
+        android:drawableStart="@drawable/ic_sent"
+        android:drawableLeft="@drawable/ic_sent"
+        android:text="@string/sent" />
+
+    <TextView
+        style="@style/folderStyle"
+        android:drawableStart="@drawable/ic_trash"
+        android:drawableLeft="@drawable/ic_trash"
+        android:text="@string/trash" />
+
+</LinearLayout>

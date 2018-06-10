@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yenimobile.myfavoritetoysudacity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.example.udacity.droidtermsexample.TERMS_READ" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".ToyappActivity" />
+        <activity
+            android:name=".SunshineActivity"
+            android:theme="@style/AppTheme.Forecast"
+            android:launchMode="singleTop"
+            />
+        <activity android:name=".SomerecyclerviewActivity" />
+        <activity android:name=".ChildtoyappActivity" />
+
+        <activity android:name=".ToyimplicitActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <!--
+                     Include the host attribute if you want your app to respond
+                     only to URLs with your app's domain.
+                -->
+                <!-- <data android:scheme="http" android:host="www.example.com" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- The BROWSABLE category is required to get links from web pages. -->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- data for map -->
+                <data android:scheme="geo" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".SunshinedetailActivity" />
+        <activity android:name=".LifecycleActivity" />
+
+        <activity
+            android:name=".VisualiserActivity"
+            android:launchMode="singleTop"
+            /> <!-- when we navigate back it doesn't remake the visu activity -->
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".VisualiserActivity"
+            />
+
+
+        <activity android:name=".WaitlistActivity" />
+        <activity android:name=".QuizcontentproviderActivity" />
+        <activity android:name=".BuildingcontentproviderActivity" />
+        <activity android:name=".todolistAppFiles.todoListData.AddTaskActivity" />
+
+        <provider
+            android:name=".todolistAppFiles.todoListData.TaskContentProvider"
+            android:authorities="@string/content_authority2"
+            android:exported="false" />
+        <provider
+            android:name=".SunShineDataFiles.WeatherProvider"
+            android:authorities="@string/content_authority"
+            android:exported="false" />
+
+        <activity
+            android:name=".hydratationAppServices.HydratationMainActivity"
+            android:launchMode="singleTop" />
+
+        <service
+            android:name=".hydratationAppServices.sync.WaterReminderIntentService"
+            android:exported="false" />
+        <service
+            android:name=".hydratationAppServices.sync.WaterReminderFirebaseJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SunShineDataFiles.sunshineSyncFiles.SunshineSyncIntentService"
+            android:exported="false" />
+        <service
+            android:name=".SunShineDataFiles.sunshineSyncFiles.SunshineFirebaseJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".BoardingAppFiles.BoardingpassMainActivity" />
+        <activity android:name=".polishAppFiles.PolishappMain" />
+        <activity android:name=".polishAppFiles.ColorFontActivity" />
+        <activity android:name=".polishAppFiles.StyleActivity" />
+        <activity android:name=".polishAppFiles.ResponsiveLayoutActivity" />
+        <activity android:name=".polishAppFiles.SelectorsActivity"/>
+    </application>
+
+</manifest>

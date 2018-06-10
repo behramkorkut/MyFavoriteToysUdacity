@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFavoriteToysUdacity</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="condition_2xx">Tempête</string>
+    <string name="condition_500">Pluie fine</string>
+    <string name="condition_501">Pluie modérée</string>
+    <string name="condition_502">Forte pluie</string>
+    <string name="condition_503">Pluie intense</string>
+    <string name="condition_504">Pluie extême</string>
+    <string name="condition_511">Pluie verglaçante</string>
+</resources>

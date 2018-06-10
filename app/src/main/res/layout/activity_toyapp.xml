@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO (1) Change the ConstraintLayout to a LinearLayout-->
+<!--TODO (2) Make the orientation vertical-->
+<!--TODO (3) Give left, right, and top padding of 16dp-->
+<!--TODO (4) Remove the line that declares the id, we don't need it-->
+<!--TODO (5) Remove the xmlns:app declaration, we don't need that anymore-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/et_search_box"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter a query and click to search button"/>
+
+    <Button
+        android:id="@+id/toyapp_button_send_intent_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send the data to the child activity"
+        />
+
+    <TextView
+        android:id="@+id/tv_url_display"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="the search result will be shown here"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/tv_github_search_results_json"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="make a search"/>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/error_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/error_message"
+            android:textColor="@android:color/holo_red_dark"
+            android:visibility="invisible"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
